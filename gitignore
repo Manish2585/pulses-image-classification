@@ -1,0 +1,29 @@
+# Dataset
+data/
+*.zip
+
+# Raw images
+*.jpg
+*.jpeg
+*.bmp
+*.webp
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env
+
+# Model checkpoints
+*.pth
+*.pt
+
+# Colab
+*.ipynb_checkpoints
+
+# Keep project results
+!results/
+!results/*.png
